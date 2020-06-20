@@ -1,0 +1,27 @@
+#
+#  Chat Formatter
+#
+
+loginSettings:
+  first-join:
+    message: 'Welcome <player> to the server!'
+    enabled: true   
+  join:
+    message: '<player> is now Online'
+    enabled: true 
+  quit:
+    message: '<player> is now Offline'
+    enabled: true
+    
+chatSettings:
+  format:
+    playerChat: '<player>: <message>'
+    enabled: true
+    
+headerSettings:
+  header:
+    message: 'A Minecraft Server'
+    enabled: true
+  footer:
+    message: 'do /help to get started'
+    enabled: false
